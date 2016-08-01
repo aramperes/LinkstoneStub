@@ -6,7 +6,7 @@ Generates empty methods from CraftBukkit/NMS classes.
 
 LinkstoneStub is built using Maven 3.x. 
 
-Once Maven is setup, use `mvn pacakge` in the root directory (containing the *pom.xml* file). Shortly, the executable archive will be created in the *target* directory under the name `linkstone-stub-1.0-SNAPSHOT.jar`.
+Once Maven is setup, use `mvn package` in the root directory (containing the *pom.xml* file). Shortly, the executable archive will be created in the *target* directory under the name `linkstone-stub-1.0-SNAPSHOT.jar`.
 
 ### Usage
 
