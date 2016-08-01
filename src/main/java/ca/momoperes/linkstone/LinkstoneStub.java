@@ -26,7 +26,7 @@ public class LinkstoneStub {
 
     public static void main(String[] args) {
         if (args.length != 1) {
-            System.out.println("Usage: java -jar methodvanish.jar <pathToBuildToolsDirectory>");
+            System.out.println("Usage: java -jar linkstone-stub.jar <pathToBuildToolsDirectory>");
             System.exit(1);
         }
         File buildToolsDir = new File(args[0]);
