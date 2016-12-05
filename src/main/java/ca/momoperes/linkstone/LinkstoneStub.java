@@ -155,6 +155,9 @@ public class LinkstoneStub {
                     .replace(".do,", "._do,")
                     .replace(" do;", " _do;")
                     .replace("do =", "_do =")
+                    .replace("do()", "_do()")
+                    .replace("if;", "_if;")
+                    .replace("if =", "_if =")
             ;
 
             CompilationUnit cu = JavaParser.parse(new StringBufferInputStream(fileContent));
